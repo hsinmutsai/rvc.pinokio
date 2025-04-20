@@ -21,10 +21,10 @@ module.exports = {
       }
     },
     {
-      method: "script.run",
+      method: "shell.run",
       params: {
         message: [
-          "brew install ffmpeg xv aria2"
+          "brew install ffmpeg xv aria2",
         ]
       }
     },
