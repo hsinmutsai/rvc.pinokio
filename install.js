@@ -24,7 +24,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "brew install ffmpeg xz aria2",
+          "brew install aria2",
         ]
       }
     },
