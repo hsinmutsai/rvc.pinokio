@@ -20,6 +20,14 @@ module.exports = {
         }
       }
     },
+    {
+      method: "script.run",
+      params: {
+        message: [
+          "brew install ffmpeg xv aria2"
+        ]
+      }
+    },
     // Edit this step with your custom install commands
     {
       method: "shell.run",
